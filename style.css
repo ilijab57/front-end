@@ -1,0 +1,303 @@
+.navbar {
+    border-radius: unset;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: inherit;
+    border-left: 3px solid white;
+}
+.bg_gray {
+    background-color: #333333;
+}
+
+
+@media only screen and (min-width: 992px) {
+        #home_page_carousel {
+        height: 65vh;
+        overflow: hidden;
+    }
+}
+
+#home_page_carousel .carousel-indicators li {
+    border-radius: 2px;
+    width: 30px;
+    height: 5px;
+}
+#home_page_carousel .carousel-indicators .active {
+    border-radius: 2px;
+    width: 30px;
+    height: 7px;
+}
+#home_page_carousel .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 55vh;
+    transform: translateY(-300px);
+    bottom: initial; 
+}
+#home_page_carousel #first_caption {
+    align-items: flex-end;
+}
+
+
+.glyphicon_2xSize {
+    font-size: 2em;
+}
+.first_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fixed_bg_img {
+    background-image: url(images/lights.jpg);
+    background-attachment: fixed;
+    padding: 25px 0;
+}
+.white_text {
+    color: white;
+}
+
+.btn.red_button {
+    color: red;
+    border-color: red;
+    margin-left: 0;
+}
+.red_button:hover {
+    color: white;
+    background-color: red;
+}
+@media only screen and (min-width: 768px){
+    .content {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.pop_up_video {
+    background-color: rgba(10, 10, 10, 0.7);
+    text-align: center;
+    padding: 20px 0;
+}
+.pop_up_video_bg_image {
+    background-image: url(images/media.jpg);
+    background-attachment: fixed;
+}
+.glyphicon-play {
+    cursor:pointer;
+}
+
+
+
+.photo_gallery img {
+    max-width: 100%;
+    max-height: 320px;
+    margin-bottom: 30px;
+    cursor:pointer;
+}
+@media only screen and (min-width: 992px) {
+    .photo_gallery .row {
+        padding: 0 50px;
+        }
+    }
+.images_modal img {
+    border: 20px solid white;
+    max-width: 100%;
+}
+
+
+
+.newsletter {
+    background-color: #333333;
+    padding-bottom: 30px;
+}
+.newsletter input {
+    margin: 10px 0;
+    float: left;
+}
+.newsletter .btn {
+    margin: 10px 0;
+    float: left;
+}
+
+
+.footer {
+    padding: 10px 0;
+}
+.bg_black {
+    background-color: black;
+}
+
+
+
+.main_bg_img {
+    background-image: url(images/image1.jpg);
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#about_us_img {
+    margin-top: -50px;
+    width: 400px;
+    height: 400px;
+}
+
+.bg_red {
+    background-color: red;
+}
+.bg_blue {
+    background-color: #334fff;
+}
+i {
+    font-size: 2em;
+    padding: 10px;
+}
+.card {
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.cards_container {
+    margin-top: 70px;
+}
+
+
+
+#testimonials_carousel {
+    margin-top: 50px;
+    background: #333;
+    text-align: center;
+    height: 150px;
+}
+#testimonials_carousel .carousel-inner {
+    height: inherit;
+}
+#testimonials_carousel h3 {
+    position: relative;
+    top: 30px;
+}
+#testimonials_carousel p {
+    color: gray;
+}
+#testimonials_carousel .carousel-caption {
+    top: 5px;
+}
+@media only screen and (max-width: 768px) {
+    #testimonials_carousel .carousel-caption {
+        left: unset;
+        right: unset;
+        padding: 20px;
+    }
+}
+#testimonials_carousel i {
+    position: absolute;
+    top: 40%;
+    font-size: 1.3em;
+}
+#testimonials_carousel .fa-long-arrow-alt-right {
+    right: 5%;
+}
+#testimonials_carousel .fa-long-arrow-alt-left {
+    left: 5%;
+}
+
+
+
+
+.blog_content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.media {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 4px;
+}
+.blog_content img {
+    height: 250px;
+    width: 100%;
+}
+.media-body {
+    padding: 20px 10px 10px 10px;
+}
+.blog_content h6 {
+    font-size: 0.9rem;
+    color: rgb(138, 133, 133);
+}
+.blog_content .bottom_content h6 {
+    color: white;
+}
+.post_one h6{
+    padding-bottom: 10px;
+}
+
+
+
+.services_pricing {
+    margin-top: 30px;
+}
+.services_pricing .glyphicon {
+    padding-right: 5px;
+}
+.services_pricing .list-group {
+    margin: 0 20px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.services_pricing .btn {
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+.services_pricing .panel-footer {
+    padding-bottom: 20px;
+}
+
+
+.FAQ_container .btn {
+    background-color: #212121;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding: 10px;
+}
+.FAQ_container .well {
+    background-color: #212121;
+    border-color: #212121;
+    text-align: left;
+    position: relative;
+    top: -4px;
+}
+.FAQ_container {
+    padding-bottom: 30px;
+}
+
+
+.contact_form {
+    border: 1px solid lightgray;
+    margin: 30px 15px;
+}
+.contact_form input, textarea, .btn {
+    margin-bottom: 20px;
+}
+
+.staff_header {
+    padding: 10px 0;
+}
+.staff_hr {
+    width: 95%;
+    border:0.5px solid black;
+}
+
+
+
+
+
+
